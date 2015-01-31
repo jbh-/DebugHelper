@@ -1,4 +1,4 @@
-# Debug
+# DebugHelper
 
 This is a helper that adds [PHP Debug Bar](http://phpdebugbar.com/) functionality to the [Simple MVC Framework](https://github.com/simple-mvc-framework/v2). The debug bar will only show if the `ENVIRONMENT` constant in `index.php` is set to `development`.
 
@@ -25,7 +25,7 @@ This is a helper that adds [PHP Debug Bar](http://phpdebugbar.com/) functionalit
         helpers\url::template_path() . 'css/style.css',
         ));
 
-        // Render head include example.
+        // Render Debug Bar head include example.
         $debug = new helpers\Debug;
         echo $debug->renderHead();
     ?>
@@ -41,7 +41,7 @@ This is a helper that adds [PHP Debug Bar](http://phpdebugbar.com/) functionalit
     <?php
         helpers\assets::js(helpers\url::template_path() . 'js/jquery.js');
 
-        // Render debug bar example
+        // Render Debug Bar footer include example
         $debug = new helpers\Debug;
         echo $debug->render();
     ?>

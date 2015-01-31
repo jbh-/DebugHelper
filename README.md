@@ -1,6 +1,6 @@
 # DebugHelper
 
-This is a helper that adds [PHP Debug Bar](http://phpdebugbar.com/) functionality to the [Simple MVC Framework](https://github.com/simple-mvc-framework/v2). The debug bar will only show if the `ENVIRONMENT` constant in `index.php` is set to `development`.
+DebugHelper is a helper that adds [PHP Debug Bar](http://phpdebugbar.com/) functionality to the [Simple MVC Framework](https://github.com/simple-mvc-framework/v2). The debug bar will only show if the `ENVIRONMENT` constant in `index.php` is set to `development`.
 
 ## Use
 
